@@ -1,0 +1,25 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-no-unsupported-browser-features"
+  ],
+  "rules": {
+    "selector-class-pattern": ".+",
+    "media-feature-range-notation": "prefix",
+    "plugin/no-unsupported-browser-features": [
+      true,
+      {
+        "ignore": [
+          "intrinsic-width",
+          "css-matches-pseudo",
+          "text-decoration"
+        ]
+      }
+    ]
+  },
+  "ignoreFiles": [
+    "**/*.ts",
+    "**/*.tsx",
+    "dist/**"
+  ]
+}
