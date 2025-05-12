@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"addPost": "node ./scripts/addPost.js",
+		"post": "node ./scripts/addPost.js",
 		"dev": "cd astro && npm run dev",
 		"build": "cd astro && npm run build",
 		"prettify": "prettier --write \"{*,**/*}.{ts,tsx,js,jsx}\" && eslint --fix \"{*,**/*}.{ts,tsx,js,jsx}\" && stylelint --fix \"{*,**/*}.css\"",
