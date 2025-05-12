@@ -13,9 +13,21 @@ Key features is
 
 Batteries included - RSS Feed, Site Map, Syntax Highlighting, Tagging System, Pagination and other basic features you expect from nice blog platform.
 
+# Preview
+
+You may check live example at https://vitonsky.net
+
+![](./assets/post.png)
+![](./assets/post-bottom.png)
+![](./assets/tag-page.png)
+![](./assets/pagination.png)
+
 # How to start
 
 To start use this blog, just create new GitHub repository and select current repository as template.
+
+![](./assets/use-template.png)
+![](./assets/create-repository-from-template.png)
 
 You may self-host your blog for free, just setup domain for your github repository, update config in `astro` directory with provide your domain and that's all.
 
@@ -53,3 +65,7 @@ To customize your blog, update this files
 You may generate favicon from svg file. To do it, place your svg icon as `astro/assets/logo.svg` file and then run `npm run build:favicon`.
 
 This command will convert yous SVG icon to favicon that is have a wide browsers support.
+
+## License
+
+[MIT](./LICENSE)
